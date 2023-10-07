@@ -1,0 +1,26 @@
+{
+    "name": "zems/lib_web",
+    "description": "lib_web For website maintain and managing admin model migration by zems team",
+    "type": "library",
+    "require": {
+        "zems/lr_admin": "v1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zems\\LibWeb\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zems",
+            "email": "support@zems.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": ["Zems\\LibWeb\\LibWebProvider"]
+        }
+    }
+}
