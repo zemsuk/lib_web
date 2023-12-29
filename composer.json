@@ -3,7 +3,7 @@
     "description": "lib_web For website maintain and managing admin model migration by zems team",
     "type": "library",
     "require": {
-        "zems/lr_admin": "v1.0"
+        "zems/lr_admin": "v1.0.2"
     },
     "license": "MIT",
     "autoload": {
